@@ -3,10 +3,10 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    line_waiting = "The line is currently:"
+    waiting_in_line = "The line is currently:"
     array.each.with_index(1) do |name, i|
-      line_waiting << " #{i}. #{name}"
+      waiting_in_line << " #{i}. #{name}"
   end
-  puts line_waiting
+  puts waiting_in_line
   end
 end
