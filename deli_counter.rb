@@ -6,6 +6,4 @@ def line(array)
     array[-1].insert(0)
     else
       puts "The line is currently empty."
-  end
-    array
 end
