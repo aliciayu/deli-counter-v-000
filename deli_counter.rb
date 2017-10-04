@@ -25,5 +25,4 @@ def now_serving(array)
       serving << " #{name}."
     array.shift
   end
-  serving
 end
