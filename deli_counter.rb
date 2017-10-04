@@ -26,11 +26,11 @@ def now_serving(array)
       waiting_in_line << " #{i}. #{name}"
     end
     puts waiting_in_line
-    
+
     serving = "Currently serving"
     array.each do |name|
       serving << " #{name}."
     array.shift
-  end 
+  end
   serving
 end
