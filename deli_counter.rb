@@ -10,3 +10,8 @@ def line(array)
   puts waiting_in_line
   end
 end
+
+def take_a_number(name, array)
+  name << array
+  puts "Welcome, #{name}. You are number #{array} in line."
+end
