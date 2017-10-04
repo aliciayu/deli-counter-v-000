@@ -23,4 +23,5 @@ def now_serving(array)
     serving = "Currently serving #{array.frist}"
     array.shift
   end
+  serving
 end
