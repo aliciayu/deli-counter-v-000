@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently:#{array}"
   elsif array.length > 2
     array[-1].insert(0, "and ")
-    else 
+    else
       puts "The line is currently empty."
   end
     array.join(", ")
