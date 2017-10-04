@@ -23,6 +23,7 @@ def now_serving(array)
     serving = "Currently serving"
     array.each do |name|
       serving << " #{name}."
+    end
     serving
     array.shift
   end
